@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+body {
+ height: 0;
+}
+
+.ant-layout {
+  margin: 3% 12% 0% 12%;
+  height: auto;
+  font-family: 'Oswald', sans-serif;
+  background-color: transparent;
+}
+
+@media (max-width: 1024px) {
+  .ant-layout {
+    margin: 3% 3% 0% 3%;
+    padding: 0;
+  }
+}
+
+.header{
+    background-color: rgba(224, 106, 106, 0.808);
+    padding: 5px 20 px;
+    width: 100%;
+}
+
+.titulo{
+    font-size: 30;
+    text-align: center;
+    padding: 30;
+    font-size: 2.2rem;
+}
+
+body {
+    background-color: rgba(206, 206, 206, 0.541);
+}
+p,
+span {
+  font-size: 16px;
+  color: black;
+  font-weight: 500;
+}
+
+.contenedor {
+  margin: 0 2%;
+}
+
+.titulo {
+  font-size: 30px;
+  text-align: center;
+}
+
+.subtitulo {
+  font-size: 20px;
+  text-align: left;
+}
+
+.seccion {
+  background-color: rgba(224, 106, 106, 0.808);
+  border-radius: 5px;
+  padding: 5px 20px;
+  border: none
+
+}
+
+.margen__item {
+  margin-top: 5px;
+}
+
+.margen {
+  margin-top: 1rem;
+}
+
+.ant-radio-inner {
+  width: 20px;
+  height: 20px;
+  background-color: rgba(206, 206, 206, 0.541);
+}
+
+.ant-radio-inner::after {
+  width: 12px;
+  height: 12px;
+}
+
+div.ant-select-selector {
+  border-radius: 5px !important;
+  border: none !important;
+}
+
+.campo__input {
+  border: 1px solid black;
+  border-radius: 5px;
+  outline: none;
+  background-color:  rgba(206, 206, 206, 0.541);
+}
+
+.margen__izquierdo {
+  margin-left: 10px;
+}
+
+.icon {
+  cursor: pointer;
+  position: relative;
+  top: 4px;
+  margin-left: 2rem;
+  font-size: 24px;
+  color: #999;
+  transition: all 0.3s;
+}
+
+.icon:hover {
+  color: #777;
+}
+
+.icon[disabled] {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.submit {
+  color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+.space {
+  display: grid;
+  grid-template-columns: 10% 5% 5% 10% 5% 10% 10% 10%;
+  column-gap: 3rem;
+}
+
+.borrar-fila {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-size: 12px;
+  background-color: transparent;
+  color: red;
+  font-weight: 500;
+}
+
+.tope {
+  margin-top: 5px;
+}
+
+.contenedor__botones{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    background-color: rgba(250, 212, 87, 0.541);
+}
+
+@media screen and (max-width: 480px) {
+  .space {
+    grid-template-columns: 1fr;
+  }
+
+  .position-grid {
+    grid-column: 1/2;
+  }
+
+  .margen__derecha {
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+  }
+}
