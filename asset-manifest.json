@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/github-metodo-grafico/static/css/main.cf01fd3b.chunk.css",
+    "main.js": "/github-metodo-grafico/static/js/main.a8ed9d93.chunk.js",
+    "main.js.map": "/github-metodo-grafico/static/js/main.a8ed9d93.chunk.js.map",
+    "runtime-main.js": "/github-metodo-grafico/static/js/runtime-main.afae7393.js",
+    "runtime-main.js.map": "/github-metodo-grafico/static/js/runtime-main.afae7393.js.map",
+    "static/css/2.44309f2b.chunk.css": "/github-metodo-grafico/static/css/2.44309f2b.chunk.css",
+    "static/js/2.a5b34324.chunk.js": "/github-metodo-grafico/static/js/2.a5b34324.chunk.js",
+    "static/js/2.a5b34324.chunk.js.map": "/github-metodo-grafico/static/js/2.a5b34324.chunk.js.map",
+    "index.html": "/github-metodo-grafico/index.html",
+    "precache-manifest.55a0a9e518d2e225e4e3e316ff863e0e.js": "/github-metodo-grafico/precache-manifest.55a0a9e518d2e225e4e3e316ff863e0e.js",
+    "service-worker.js": "/github-metodo-grafico/service-worker.js",
+    "static/css/2.44309f2b.chunk.css.map": "/github-metodo-grafico/static/css/2.44309f2b.chunk.css.map",
+    "static/css/main.cf01fd3b.chunk.css.map": "/github-metodo-grafico/static/css/main.cf01fd3b.chunk.css.map",
+    "static/js/2.a5b34324.chunk.js.LICENSE.txt": "/github-metodo-grafico/static/js/2.a5b34324.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/github-metodo-grafico/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.afae7393.js",
+    "static/css/2.44309f2b.chunk.css",
+    "static/js/2.a5b34324.chunk.js",
+    "static/css/main.cf01fd3b.chunk.css",
+    "static/js/main.a8ed9d93.chunk.js"
+  ]
+}
